@@ -1,6 +1,5 @@
 class Solution {
-    List<List<Integer>> ans= new ArrayList<>(); // global, like your 'arr'
-
+    List<List<Integer>> ans= new ArrayList<>(); 
     public List<List<Integer>> subsets(int[] nums) {
         printSubsets(0, nums, new ArrayList<>());
         return ans;
